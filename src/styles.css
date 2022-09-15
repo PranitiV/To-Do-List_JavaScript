@@ -1,0 +1,97 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-image: url(background_image.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #1a150e;
+  transition: 0.3s linear;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.heading {
+  text-align: center;
+  color: rgba(256, 256, 256, 0.8);
+}
+
+#what-to-do {
+  width: 100%;
+  flex-wrap: center;
+  font-family: inherit;
+  padding: 15px 20px;
+  outline: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid lightgrey;
+  border-right: none;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+#todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons {
+  flex-wrap: center;
+}
+
+#content {
+  max-width: 650px;
+  position: center;
+  margin: 0 auto;
+}
+
+#form {
+  display: flex;
+  font-size: 1.7rem;
+  justify-content: center;
+  margin: 15px 0;
+  padding: 0.8rem;
+  width: 100%;
+}
+
+#enterBtn {
+  padding: 10px;
+  font-size: 17px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  min-width: 100px;
+  border: none;
+  border: 1px solid lightgrey;
+  color: floralwhite;
+  background-color: rgb(108, 82, 143, 0.5);
+}
+
+.item-text {
+  color: white;
+}
+
+#searchInput {
+  font-size: 1 rem;
+  justify-content: center;
+  padding: 0.1rem;
+  border-radius: 3rem;
+  margin: 0 20px;
+  width: 610px;
+}

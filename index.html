@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+  </head>
+
+  <body>
+    <script src="src/index2.js"></script>
+    <div id="app"></div>
+    <div id="content">
+      <h1 class="heading">ToDo List</h1>
+      <div id="form">
+        <input id="what-to-do" placeholder="What needs to be done? " />
+        <button type="submit" id="enterBtn">Enter</button>
+      </div>
+      <input
+        type="searchText"
+        id="searchInput"
+        onkeyup="searchFunction"
+        placeholder="Search..."
+      />
+      <ul id="todo-list"></ul>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
